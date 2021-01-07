@@ -22,7 +22,7 @@ public class Category {
     private UUID id;
 
     private String categoryName;
-
+    @Column(length = 3000)
     private String categoryDescription;
 
     private String imageLink;

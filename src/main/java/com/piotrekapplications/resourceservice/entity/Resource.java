@@ -23,7 +23,10 @@ public class Resource {
     @Column(length = 36, columnDefinition = "varchar(36)", updatable = false, nullable = false)
     private UUID id;
 
+
     private String resourceName;
+    @Column(length = 3000)
+    private String resourceDescription;
 
     private String imageLink;
 

@@ -12,4 +12,8 @@ public class ResourceDto {
     private Integer howManyPeopleCanShare;
 
     private String categoryName;
+
+    private String resourceDescription;
+
+    private String imageLink;
 }
